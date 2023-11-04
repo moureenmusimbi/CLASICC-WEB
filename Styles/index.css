@@ -1,19 +1,54 @@
 body {
-    background-color: red;
+    background-color: White;
     color: black;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.heading {
+    display: flex;
+    border-bottom: 1px solid teal;
+    background-color: rgb(35, 141, 141);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.headingLeft {
+    background-color: teal;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.headingLeft a {
+    color: white;
+    text-decoration: none;
+    font-family: Calibri;
+    font-size: 20px;
 }
 
 .headingRight {
-    background-color: red;
+    background-color: inherit;
+    margin-right: 40px;
 }
 
-ul {
+.headingRight ul {
     display: flex;
     list-style: none;
+    gap: 20px;
 }
 
-li {
-    display: flex;
+.headingRight ul li a {
+    text-decoration: none;
+    color: rgb(241, 216, 216);
+}
+
+.loginButton {
+    padding: 7px 10pxs;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    background-color: gray;
 }
